@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#particles-js{
+    height: 100%;
+    background: #0CBABA;
+}
+.container{
+    position: absolute;
+    left: 36% ;
+    top: 30% ;
+}
+.container input{
+    border: 2px solid blue;
+    border-radius: 5px;
+    height: 40px;
+    width: 400px;
+}
+input::placeholder{
+    position: relative;
+    left: 10%;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.buttons{
+    position: absolute;
+    left: 43% ;
+    top: 50% ;
+}
+
+.uibutton {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #9395D3;
+    border-radius: 3px;
+    color: #9395D3;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.uibutton:hover{
+    background-color:#9395D3;
+    color:  white;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+}

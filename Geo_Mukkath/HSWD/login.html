@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Login/Signup</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+<link href='https://fonts.googleapis.com/css?family=Alef' rel='stylesheet'>
+
+        <link rel="stylesheet" href="css/login.css">
+
+        <style>
+         body
+        {
+            background-image: linear-gradient(to right, #008080, #3364FF,  #008080 );
+        }
+        
+        .fadein {
+    opacity: 0;
+    -moz-transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+    transition: opacity 1.5s;
+}
+
+#body.loaded .fadein {
+    opacity: 1;
+}
+        </style>
+
+    
+    
+    
+  </head>
+
+  <body onload="document.body.className += ' loaded';">
+
+    <div class="materialContainer">
+
+
+   <div class="box">
+
+      <div class="title">LOGIN</div>
+
+      <form action="login.php" method="post">
+
+      <div class="input">
+        <label for="email">Email Id</label>
+         <input type="email" name="email" id="email">
+         <span class="spin"></span>
+      </div>
+
+      <div class="input">
+         <label for="pass">Password</label>
+         <input type="password" name="password" id="pass">
+         <span class="spin"></span>
+      </div>
+
+      <div class="button login">
+         <button type="submit" name="submitLog"><span>GO</span> <i class="fa fa-check"></i></button>
+      </div>
+      </form>
+
+      <a href="" class="pass-forgot">Forgot your password?</a>
+
+   </div>
+
+   <div class="overbox">
+      <div class="material-button alt-2"><span class="shape"></span></div>
+
+      <div class="title">REGISTER</div>
+      <form action="signupCheck.php" method="post">
+      <div class="input">
+         <label for="regemail">Email Id</label>
+         <input type="email" name="regemail" id="regemail">
+         <span class="spin"></span>
+      </div>
+
+      <div class="input">
+         <label for="regpass">Password</label>
+         <input type="password" name="regpass" id="regpass">
+         <span class="spin"></span>
+      </div>
+
+      <div class="input">
+         <label for="reregpass">Repeat Password</label>
+         <input type="password" name="reregpass" id="reregpass">
+         <span class="spin"></span>
+      </div>
+
+      <div class="button">
+         <button type="submit" name="submit" ><span>NEXT</span></button>
+      </div>
+     </form>
+
+   </div>
+
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/login.js"></script>
+        <script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+
+        
+
+    
+    
+    
+  </body>
+</html>
