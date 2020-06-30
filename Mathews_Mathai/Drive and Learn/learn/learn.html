@@ -1,0 +1,26 @@
+<html>
+<head>
+</head>
+
+
+<body>
+<button name="l" onclick="loadDoc()"> Click Me </button>
+<b3>
+<h3 id="demo" > Checking Users Online Count <h3>
+<br>
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+	alert ("This worked");
+     document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("POST", "learn.php", true);
+  xhttp.send();
+}
+</script>
+</body>
+
+</html?

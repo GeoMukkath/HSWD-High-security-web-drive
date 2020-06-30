@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Create Drive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    
+</head>
+<body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+        <form action="createDrive.php" method="post">
+        <div class="ui container">
+        <div class="ui input focus">
+                <input type="text" placeholder="Drive Name" name="dname">
+              </div>
+                    <br>
+              
+
+                  <div class="ui input focus">
+                        <!---<input type="text" placeholder="Drive ID">-->
+                      </div>
+
+                            <br>
+                      <div class="ui slider checkbox">
+                            <input type="checkbox" name="check" value="yes" id="check">
+                            <label for='check'>Simultaneous Login</label>
+                          </div>
+                          <br>
+              <button type='submit' name="submit" class="ui button">Create Drive</button>
+
+              <div>
+
+              </div>
+              </form>
+</body>
+</html>

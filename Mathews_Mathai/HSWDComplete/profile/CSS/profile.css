@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+}
+
+#profile-pic{
+    height: 200px;
+    width: 200px;
+    border: 0.5px solid #1789FC;
+    position: absolute;
+    border-radius: 50%;
+    left: 100px;
+    top: 40px;
+}
+
+h2{
+    font-family: 'Assistant', sans-serif;
+    position: absolute;
+    top: 230px;
+    left: 70px;
+    font-size: 40px;
+    color: #1789FC;
+    font-weight: lighter;
+}
+
+#info-box{
+    height: 300px;
+    width: 500px;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    border-radius: 15px;
+}
+
+#mem1{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 170px;
+    top: 50px;
+}
+
+#mem2{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 170px;
+    top: 120px;
+}
+
+#mem3{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 170px;
+    top: 190px;
+}
+
+h4{
+    position: relative;
+    left: 240px;
+    top: 20px;
+    font-family: 'Assistant', sans-serif;
+    color: #1789FC;
+}
+
+hr{
+    height: 500px;
+    width: 1px;
+    background-color: #1789FC;
+    position: absolute;
+    left: 550px;
+    top: 50px;
+}
+
+h1{
+    font-weight: lighter;
+    font-family: 'Raleway Dots', cursive;
+    color: #1789FC;
+    position: absolute;
+    right: 300px;
+    top: 70px;
+}
+
+p{
+    color: #1789FC;
+    font-family: 'Raleway Dots', cursive;
+    position: absolute;
+    left: 580px;
+    top: 320px;
+}

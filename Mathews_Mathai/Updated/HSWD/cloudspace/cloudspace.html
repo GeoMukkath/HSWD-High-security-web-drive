@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>
+            Cloudspace 
+        </title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
+        <script type="text/javascript" src="JS/jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" type="text/css"  href="CSS/cloudspace.css"></link>
+        <script src="https://unpkg.com/tippy.js@2.6.0/dist/tippy.all.min.js"></script>
+        <script type="text/javascript" src="JS/cloudspace.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Heebo:100|Thasadith" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Alef' rel='stylesheet'>
+
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    
+        <style>
+        body{
+    margin: 0px;
+     background-image: linear-gradient(to right, #008080, #3364FF,  #008080 );
+
+}
+        </style>
+    </head>
+
+    <body>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+<h1>Your Drive</h1>
+<div id="header">
+    <img class="user" title=" <span>Profile</span> <br><hr> <span>Settings</span> <br><hr> <span>About</span> <br><hr> <span>Logout</span> <br>" src="images/user.png">
+</div>
+
+<div class="menu-bar">
+    <i title="Logs" class="fas fa-poll-h logs"></i> <br>
+    <i title="Calendar" class="far fa-calendar-alt cal"></i><br>
+    <i title="Protocols" class="fas fa-lock lock"></i><br>
+    <h4>HSWD</h4>
+</div>
+
+<div id="folders">
+     <div class="folder1"></div>
+     <div class="folder2"></div>
+     <div class="folder3"></div>
+     <div class="folder4"></div>
+</div>
+<h6>//Files over here</h6>
+<div id="members">
+    <i class="fas fa-caret-left left"></i>
+    <i class="fas fa-caret-right right"></i>
+    <img id="mem1" src="images/boy.png">
+    <img id="mem2" src="images/woman1.png">
+    <img id="mem3" src="images/man2.png">
+</div>
+
+<div id="upload"></div>
+
+<script>
+    tippy('.user ', {
+    delay: 10,
+    arrow: true,
+    arrowType: 'sharp',
+    size: 'large',
+    duration: 300,
+    interactive: true,
+    placement: 'bottom',
+    animation: 'perspective',
+    hideOnClick: false,
+  })
+
+  tippy('.logs ', {
+    delay: 10,
+    arrow: true,
+    arrowType: 'sharp',
+    size: 'large',
+    duration: 300,
+    interactive: true,
+    placement: 'right',
+    animation: 'shift-away',
+    hideOnClick: false,
+  })
+
+  tippy('.cal ', {
+    delay: 10,
+    arrow: true,
+    arrowType: 'sharp',
+    size: 'large',
+    duration: 300,
+    interactive: true,
+    placement: 'right',
+    animation: 'shift-away',
+    hideOnClick: false,
+  })
+
+  tippy('.lock ', {
+    delay: 10,
+    arrow: true,
+    arrowType: 'sharp',
+    size: 'large',
+    duration: 300,
+    interactive: true,
+    placement: 'right',
+    animation: 'shift-away',
+    hideOnClick: false,
+  })
+    </script>
+    </body>
+</html>

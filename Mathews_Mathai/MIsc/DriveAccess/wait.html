@@ -1,0 +1,23 @@
+<html>
+<body>
+<h1 id="Hey"><h1>
+<script>
+check();
+function check()
+{
+//document.getElementById("Hey").innerHTML="Hi, my friend!";
+ var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+	//alert ("This worked");
+     document.getElementById("Hey").innerHTML = this.responseText;
+	 window.location = '/HSWD/HSWD/Drives/'+this.responseText;
+    }
+  };
+  xhttp.open("POST", "daccesscheck.php", true);
+  xhttp.send();
+}
+
+</script>
+</body>
+</html>
